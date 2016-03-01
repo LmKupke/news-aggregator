@@ -1,0 +1,42 @@
+li {
+  list-style-type: none;
+}
+input {
+  display: block;
+  width: 20%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+label {
+  display: block;
+}
+textarea {
+  width: 20%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.form {
+  border-style: groove;
+  width: 60%
+
+}
+
+body {
+  background-color: rgb(73, 205, 205)
+}
+
+.articles_main{
+  padding: 0px
+}
+.indiv_articles{
+  padding: 30px;
+  border-style: solid;
+  width: 10%
+}
+
+h3 {
+  text-align: center;
+}

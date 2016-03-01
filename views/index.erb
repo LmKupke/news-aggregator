@@ -1,0 +1,22 @@
+<h3> Articles! </h3>
+
+<div align="center" class="articles_main">
+  <% if @articles.empty? %>
+   <p> Oh no! Please create an article!</p>
+
+  <% else %>
+
+    <% @articles.each do |row| %>
+      <div class="indiv_articles">
+
+        <li> <%= row[0] %> </li>
+        <li><a href="<%= row[1] %>"> <%= row[1] %> </a></li>
+        <li><%= row[2] %></li>
+      </div>
+      <br>
+    <% end %>
+  <%end%>
+
+
+</div>
+  <a href="/articles/new"> Put a new article in! </a>
